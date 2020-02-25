@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-
+//Comentario editado
 class Rectangulo{
  private:
   float largo;
@@ -29,4 +29,5 @@ int main(){
  Rectangulo R1(7,6);
  R1.Perimetro();
  R1.Area();
+ cout<<"\nHola";
 }
